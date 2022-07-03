@@ -2,13 +2,15 @@
 
 .App {
   text-align: center;
+  justify-items: center;
+  display: grid;
 }
 
 #quote-box {
   align-items: center;
-  justify-content: center;
+  justify-items: center;
   height: 100vh;
-  width: 100vw;
+  width: 90vw;
   transition: all .5s ease-in-out;
   place-content: center;
   vertical-align: middle;
