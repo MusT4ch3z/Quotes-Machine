@@ -34,32 +34,34 @@ function Quote_box() {
   }
 
   return (
-    <div id="quote-box" style={{ backgroundColor: `${accentColor}`, color: `${accentColor}` }}>
-      <Container>
-        <Row className="justify-content-md-center">
-          <Col id="text" md='auto'>
-            "{currentQuote.quote}"
-          </Col>
-        </Row>
-        <Row className="justify-content-md-center">
-          <Col id="author" md='auto'>
-            -{currentQuote.author}
-          </Col>
-        </Row>
-        <div className="buttonsLine">
-          <Button id="tweet-quote"
-            style={{ backgroundColor: `${accentColor}` }}
-            href={`https://twitter.com/intent/tweet?text=${currentQuote.quote}-${currentQuote.author}&hashtags=quote`}
-          >
-            Tweet me
-          </Button>
-          <Button id="new-quote" style={{ backgroundColor: `${accentColor}` }}
-            onClick={getRandomQuote}
-          >
-            Be wiser!
-          </Button>
-        </div>
-      </Container>
+    <div className="fCC_check_fix" style={{ backgroundColor: `${accentColor}`, width: '100vw' }}>
+      <div id="quote-box" style={{ backgroundColor: `${accentColor}`, color: `${accentColor}`, width: '90vw' }}>
+        <Container>
+          <Row className="justify-content-md-center">
+            <Col id="text" md='auto'>
+              "{currentQuote.quote}"
+            </Col>
+          </Row>
+          <Row className="justify-content-md-center">
+            <Col id="author" md='auto'>
+              -{currentQuote.author}
+            </Col>
+          </Row>
+          <div className="buttonsLine">
+            <Button id="tweet-quote"
+              style={{ backgroundColor: `${accentColor}` }}
+              href={`https://twitter.com/intent/tweet?text=${currentQuote.quote}-${currentQuote.author}&hashtags=quote`}
+            >
+              Tweet me
+            </Button>
+            <Button id="new-quote" style={{ backgroundColor: `${accentColor}` }}
+              onClick={getRandomQuote}
+            >
+              Be wiser!
+            </Button>
+          </div>
+        </Container>
+      </div>
     </div>
   )
 }
