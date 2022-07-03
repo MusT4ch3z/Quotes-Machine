@@ -5,13 +5,10 @@
 }
 
 #quote-box {
-  align-items: center;
-  justify-content: center;
   height: 100vh;
   width: 100vw;
   transition: all .5s ease-in-out;
   place-content: center;
-  vertical-align: middle;
   display: grid;
   padding: 0%;
 }
@@ -27,7 +24,7 @@
   max-width: 1150px;
   background-color: white;
   border-radius: 10px;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-family: 'Jockey One', sans-serif;
   justify-content: space-between;
   border-radius: 0.5rem;
@@ -50,14 +47,17 @@
     font-size: 1.5rem;
     max-width: 95%;
   }
+
   #tweet-quote,
   #new-quote {
     font-size: 1.2rem !important;
   }
-  #text{
+
+  #text {
     padding: 0.5rem 0.5rem !important;
   }
-  .buttonsLine{
+
+  .buttonsLine {
     padding-bottom: 1rem;
   }
 }
@@ -67,14 +67,17 @@
     font-size: 1rem;
     max-width: 95%;
   }
+
   #tweet-quote,
   #new-quote {
     font-size: 0.8rem !important;
   }
-  #text{
+
+  #text {
     padding: 0.5rem 0.5rem !important;
   }
-  .buttonsLine{
+
+  .buttonsLine {
     padding-bottom: 0.5rem;
   }
 }
