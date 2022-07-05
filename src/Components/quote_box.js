@@ -1,7 +1,7 @@
 import React, { useState, useEffect, } from "react";
 import { Col, Container, Row, Button } from 'react-bootstrap';
 
-function Quote_box() {
+function QuoteBox() {
   const quoteURL = "https://gist.githubusercontent.com/camperbot/5a022b72e96c4c9585c32bf6a75f62d9/raw/e3c6895ce42069f0ee7e991229064f167fe8ccdc/quotes.json"
   const colorsArr = ['#590d22', "#c44900", '#023047', '#69995D', '#04151f', '#6a040f', '#3a606e', '#b5179e', '#004b23', '#012a4a', '#890620', '#c879ff', '#344e41']
 
@@ -63,4 +63,4 @@ function Quote_box() {
     </div>
   )
 }
-export default Quote_box
+export default QuoteBox
