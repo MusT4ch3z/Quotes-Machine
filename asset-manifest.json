@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/MusT4ch3z/Quotes-Machine/static/css/main.788bbc1a.css",
-    "main.js": "/MusT4ch3z/Quotes-Machine/static/js/main.f3bf898e.js",
-    "static/js/787.e43a185d.chunk.js": "/MusT4ch3z/Quotes-Machine/static/js/787.e43a185d.chunk.js",
-    "index.html": "/MusT4ch3z/Quotes-Machine/index.html",
-    "main.788bbc1a.css.map": "/MusT4ch3z/Quotes-Machine/static/css/main.788bbc1a.css.map",
-    "main.f3bf898e.js.map": "/MusT4ch3z/Quotes-Machine/static/js/main.f3bf898e.js.map",
-    "787.e43a185d.chunk.js.map": "/MusT4ch3z/Quotes-Machine/static/js/787.e43a185d.chunk.js.map"
+    "main.css": "/Quotes-Machine/static/css/main.788bbc1a.css",
+    "main.js": "/Quotes-Machine/static/js/main.c3f84805.js",
+    "static/js/787.e43a185d.chunk.js": "/Quotes-Machine/static/js/787.e43a185d.chunk.js",
+    "index.html": "/Quotes-Machine/index.html",
+    "main.788bbc1a.css.map": "/Quotes-Machine/static/css/main.788bbc1a.css.map",
+    "main.c3f84805.js.map": "/Quotes-Machine/static/js/main.c3f84805.js.map",
+    "787.e43a185d.chunk.js.map": "/Quotes-Machine/static/js/787.e43a185d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.788bbc1a.css",
-    "static/js/main.f3bf898e.js"
+    "static/js/main.c3f84805.js"
   ]
 }
