@@ -1,12 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
 
-.App {
-  text-align: center;
-}
-
 #quote-box {
   height: 100vh;
-  width: 100vw;
+  width: 90vw;
   transition: all .5s ease-in-out;
   place-content: center;
   display: grid;
@@ -96,4 +92,11 @@
 
 .btn.btn-primary:focus {
   box-shadow: none;
+}
+
+.fCC_check_fix{
+  text-align: center;
+  justify-items: center;
+  display: grid;
+  transition: all .5s ease-in-out;
 }
