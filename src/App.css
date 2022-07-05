@@ -43,14 +43,17 @@
     font-size: 1.5rem;
     max-width: 95%;
   }
+
   #tweet-quote,
   #new-quote {
     font-size: 1.2rem !important;
   }
-  #text{
+
+  #text {
     padding: 0.5rem 0.5rem !important;
   }
-  .buttonsLine{
+
+  .buttonsLine {
     padding-bottom: 1rem;
   }
 }
@@ -60,14 +63,17 @@
     font-size: 1rem;
     max-width: 95%;
   }
+
   #tweet-quote,
   #new-quote {
     font-size: 0.8rem !important;
   }
-  #text{
+
+  #text {
     padding: 0.5rem 0.5rem !important;
   }
-  .buttonsLine{
+
+  .buttonsLine {
     padding-bottom: 0.5rem;
   }
 }
